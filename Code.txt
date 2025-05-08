@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stephanie's Luxury Picnics Kampala</title>
+  <style>
+    body { font-family: 'Georgia', serif; color: #333; margin: 0; padding: 0; background: #fffaf6; }
+    header { background: linear-gradient(135deg, #f8d7da, #fce1e4); padding: 3rem 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; color: #d94f4f; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 1.5rem auto; }
+    nav { margin-top: 1rem; }
+    nav a { margin: 0 1rem; text-decoration: none; color: #d94f4f; font-weight: bold; }
+
+    section { padding: 4rem 2rem; max-width: 900px; margin: auto; }
+    h2 { color: #d94f4f; font-size: 2rem; margin-bottom: 1rem; text-align: center; }
+    ul { list-style-type: disc; padding-left: 2rem; }
+    blockquote { border-left: 4px solid #d94f4f; margin: 1rem 0; padding-left: 1rem; font-style: italic; color: #666; }
+
+    .cta-button { background: #d94f4f; color: white; padding: 0.9rem 2rem; text-decoration: none; border-radius: 30px; font-weight: bold; }
+
+    footer { background: linear-gradient(135deg, #f8d7da, #fce1e4); text-align: center; padding: 1.5rem; font-size: 0.9rem; }
+
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .gallery-grid img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Luxury Picnics & Unforgettable Moments in Kampala</h1>
+    <p>I create fully customized, photo-worthy picnics — with themes, bubble house fun, and lasting memories — all in one.</p>
+    <a href="#book" class="cta-button">Book Your Picnic</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <ul>
+      <li>Custom themed picnics for couples, families, and friends</li>
+      <li>Kids’ picnic setups with bubble house fun</li>
+      <li>Professional photography for every event</li>
+      <li>Gourmet grazing boards and elegant tableware</li>
+      <li>Shaded canopies, custom signage & soft music ambiance</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>See some of my favorite picnic moments and beautiful setups.</p>
+    <div class="gallery-grid">
+      <img src="images/picnic1.jpg" alt="Romantic picnic setup with flowers and cushions">
+      <img src="images/picnic2.jpg" alt="Grazing board with fruits and cheeses">
+      <img src="images/picnic3.jpg" alt="Kids bubble house birthday party">
+      <img src="images/picnic4.jpg" alt="Elegant canopy picnic with candlelight">
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What My Clients Say</h2>
+    <blockquote>“Stephanie made our engagement picnic magical — every detail was perfect.”</blockquote>
+    <blockquote>“The bubble house was a hit at my son’s birthday. The kids loved it!”</blockquote>
+  </section>
+
+  <section id="book">
+    <h2>Book Your Picnic</h2>
+    <p>Ready to create beautiful memories? Contact me today to plan your dream picnic.</p>
+    <a href="#contact" class="cta-button">Contact Me</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: stephie.nimurungi@example.com</p>
+    <p>Phone: +256 XXX XXX XXX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Stephanie's Luxury Picnics Kampala | Designed with love</p>
+  </footer>
+</body>
+</html>
